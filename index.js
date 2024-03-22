@@ -1,9 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var buttons = document.querySelectorAll('button[testpopup="popup"]');
-
-  buttons.forEach(function (button) {
-    button.addEventListener('click', function () {
-      alert('Current Date and Time: ' + new Date().toLocaleString());
+$(document).ready(function() {
+    $('[popup]').click(function() {
+        alert("Current Date and Time: " + new Date().toLocaleString());
     });
-  });
 });
