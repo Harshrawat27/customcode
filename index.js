@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var buttons = document.querySelectorAll('button[name="popup"]');
+  var buttons = document.querySelectorAll('button[testpopup="popup"]');
 
   buttons.forEach(function (button) {
     button.addEventListener('click', function () {
